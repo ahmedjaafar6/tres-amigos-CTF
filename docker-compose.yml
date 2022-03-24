@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  tres-amigos:
+    container_name: tres-amigos
+    build:
+      context: ../../../ # do not change
+      dockerfile: challenges/misc/tres-amigos/Dockerfile # challenges/<category>/<folder_name>/Dockerfile
+    networks:
+      nw0:
+        ipv4_address: 172.20.30.6
+    command: bash run.sh
+
+# leave this part as it is
+networks:
+  nw0:
+    external: true

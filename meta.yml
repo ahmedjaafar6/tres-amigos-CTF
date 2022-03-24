@@ -1,0 +1,27 @@
+name: Tres Amigos
+author: [Ahmed Jaafar](https://github.com/ahmedjaafar6)
+
+description: |
+  There are three parts. Solve one part to move on to the next. Each part will have its own flag. The flags are needed to move on to the next part. The final part's flag is the final flag that will be the challenge's solution. The first part deals with a file, destination.txt. get_password.c is used to test if your password guess is correct. Make sure you use the class's Kali-Linux VM since I made sure everything works there. On other machines some stuff you try may not work, I know because I tried.
+
+value: 300
+category: Miscellaneous
+flag: CTF_SDaT{mY_br0_hA5_a_RAT_und3R_h15_b3d}
+
+hints:
+  - {
+    content: (PART 1) Sleep is good for you.,
+    cost: 15,
+    content: (PART 1) Encrypted using gpg, so decrypt using gpg. Password is a permuation of "HIWORLD", in ALL CAPS!,
+    cost: 25,
+    content: (PART 2) strcpy() is fatal.,
+    cost: 25,
+    content: (PART 2) You might need to check how far apart buf and foo addresses are.,
+    cost: 30,
+    content: (PART 3) Binary/Hex manipulation. May I suggest hexedit?,
+    cost: 40
+
+  }
+
+# administrative
+container_name: tres-amigos
