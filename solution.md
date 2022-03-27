@@ -1,4 +1,4 @@
-# Writeup for Misc/Tres Amigos
+# Tres Amigos
 
 Authors: [Ahmed Jaafar](https://github.com/ahmedjaafar6)
 
